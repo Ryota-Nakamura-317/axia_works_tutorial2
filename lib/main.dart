@@ -6,7 +6,9 @@ void main() {
 }
 
 class AnimatedLogo extends AnimatedWidget {
+  //透明度
   static final _opacityTween = Tween<double>(begin: 0.1, end: 1);
+  //サイズ
   static final _sizedTween = Tween<double>(begin: 0, end: 300);
 
   AnimatedLogo({Key key, Animation<double> animation})
